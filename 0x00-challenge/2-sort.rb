@@ -11,6 +11,8 @@ ARGV.each do |arg|
 
     # convert to integer
     i_arg = arg.to_i
+
+    puts "got " + i_arg.to_s
     
     # insert result at the right position
     is_inserted = false
